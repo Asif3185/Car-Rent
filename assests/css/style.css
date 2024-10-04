@@ -1,0 +1,106 @@
+body{ font-family: Plus Jakarta Sans;
+
+}
+.head-bar{
+    display: flex;
+
+}
+
+@media screen and(max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .search-bar {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .icon-list {
+        justify-content: center;
+    }
+
+
+    }
+    .main-holder{margin: 0;
+        margin-bottom: 50px;
+    }
+    .icon-holder{
+        width: 24px;
+        height: 24px;
+     }
+
+
+@media screen and(min-width:740px){
+
+    .main-holder{margin: 0;
+        margin-bottom: 50px;  
+    }
+    .icon-holder{
+        width: 24px;
+        height: 24px;
+     }
+}
+@media screen and(max-width: 540px) {
+    .navbar {
+        display: flex;
+        flex-direction: column; 
+    }
+    .search-bar {
+        width: 50%;
+        margin: 0 0;
+    }
+
+    .icon-list {
+        justify-content: center; 
+    }
+    
+    .main-holder{margin: 0; 
+        margin-bottom: 50px;  
+        
+     }
+     .icon-holder{
+        width: 24px;
+        height: 24px;
+     }
+
+}
+
+.text-logo{color:#3563E9;
+    font-size:32px; 
+    font-weight: bold;
+}
+.form-control{
+    width: 300px;
+    height: fit-content;
+
+}
+.btn-color{
+    background: #54A6FF;
+}
+.main-holder{
+    background-image: url(/assests/images/svg/Ads\ 1.svg);
+   background-repeat: no-repeat;
+   position:cover;
+  
+    
+}
+.main-rap{
+    background-image: url(/assests/images/svg/Ads\ 2\ \(1\).svg);
+    background-repeat: no-repeat;
+    position:cover;
+
+}
+.img-holder{ margin-left: 100px;
+}
+.text-paragraph{color: #90A3BF;
+}
+.view-bg{
+    color:#3563E9;
+}
+.footer-paragraph{
+    color: dimgray;
+}
+.footer-list{
+    color: dimgrey;
+}
